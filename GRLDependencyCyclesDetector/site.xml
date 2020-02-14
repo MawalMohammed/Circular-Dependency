@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="GRLDependencyCyclesDetector" url="https://github.com/MawalMohammed/Circular-Dependency-in-GRL">
+      This plugin facilitate dependency cycles detection and correction in GRL models
+   </description>
+   <feature url="features/DependencyCyclesDetector_1.0.0.202002141833.jar" id="DependencyCyclesDetector" version="1.0.0.202002141833"/>
+</site>
