@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editorActions">
+      <editorContribution
+            id="org.eclipse.jucmnav.grl.CircularDependencyDetection.editorContribution1"
+            targetID="seg.jUCMNav.MainEditor">
+         <menu
+               id="seg.jUCMNav"
+               label="jUCMNav">
+            <separator
+                  name="ext">
+            </separator>
+         </menu>
+         <action
+               class="org.eclipse.jucmnav.grl.CircularDependencyDetection.DetectionInuptInterface"
+               icon="icons/detection_icon.png"
+               id="org.eclipse.jucmnav.grl.CircularDependencyDetection.action1"
+               label="Circular Dependency Detection"
+               menubarPath="seg.jUCMNav/ext"
+               style="push"
+               toolbarPath="jUCMNav">
+         </action>
+      </editorContribution>
+   </extension>
+   <extension
+         id="org.eclipse.jucmnav.grl.CircularDependencyDetection.DependencyCyclesMarker"
+         name="DependencyCyclesMarker"
+         point="org.eclipse.core.resources.markers">
+      <super
+            type="org.eclipse.core.resources.problemmarker">
+      </super>
+      <super
+            type="org.eclipse.core.resources.marker">
+      </super>
+      <attribute
+            name="sourceType">
+      </attribute>
+      <attribute
+            name="badSmell">
+      </attribute>
+      <attribute
+            name="sourceName">
+      </attribute>
+   </extension>
+   <extension
+         id="GRLMarkerSupport"
+         name="GRLMarkerSupport"
+         point="org.eclipse.ui.ide.markerSupport">
+      <problemFilter
+            id="org.eclipse.jucmnav.grl.GSDetector.problemFilter1"
+            name="org.eclipse.jucmnav.grl.GSDetector.problemFilter1"
+            scope="ON_SELECTED_ONLY"
+            severity="WARNING">
+      </problemFilter>
+      <markerTypeCategory
+            name="name">
+         <markerTypeReference
+               id="org.eclipse.jucmnav.grl.CircularDependencyDetection.DependencyCyclesMarker">
+         </markerTypeReference>
+      </markerTypeCategory>
+   </extension>
+
+</plugin>
