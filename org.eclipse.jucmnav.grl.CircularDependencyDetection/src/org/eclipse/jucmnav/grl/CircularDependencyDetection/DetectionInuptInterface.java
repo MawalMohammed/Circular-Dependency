@@ -17,7 +17,11 @@ import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.ui.IEditorActionDelegate;
 import org.eclipse.ui.IEditorPart;
 
-
+/**
+ * Copyright (C) 2020 Mawal Mohammed - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the Eclipse Public License - v 2.0 ,
+ */
 
 public class DetectionInuptInterface implements IEditorActionDelegate {
 
