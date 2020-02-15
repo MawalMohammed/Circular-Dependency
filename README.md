@@ -1,4 +1,4 @@
-# Circular-Dependency-in-GRL
+# Search-Based-Circular-Dependency-Detection-in-GRL
 This plugin is used to help detect and correct dependency cycles in GRL Models.
 The source code and a downloadable version of the pulgin are provided.
 
