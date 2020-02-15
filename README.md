@@ -10,6 +10,10 @@ Important notes:
          (2) This plugin is developed and tested on Eclipse committers 6-2019
 
          (3) This plugin is a beta version
+         
+         (4) Source code is located in :
+         
+             org.eclipse.jucmnav.grl.CircularDependencyDetection/src/org/eclipse/jucmnav/grl/CircularDependencyDetection
 
 
 Installation Instructions:
