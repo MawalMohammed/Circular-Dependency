@@ -11,6 +11,12 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+/**
+ * Copyright (C) 2020 Mawal Mohammed - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the Eclipse Public License - v 2.0 ,
+ */
+
 public class DependencyAnalysisWithPrunningAndPairing {
 	
 	int allLinks[][];
