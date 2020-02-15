@@ -4,16 +4,18 @@ The source code and a downloadable version of the pulgin are provided.
 
 Important notes: 
 
-         (1) This tool works on GRL models created with jUCMNav tool. 
-          Therefore, jUCMNav plugin needs to be installed before installing this plugin
+      (1) This tool works on GRL models created with jUCMNav tool. 
+       Therefore, jUCMNav plugin needs to be installed before installing this plugin
 
-         (2) This plugin is developed and tested on Eclipse committers 6-2019
+      (2) This plugin is developed and tested on Eclipse committers 6-2019
 
-         (3) This plugin is a beta version
+      (3) This plugin is a beta version
          
-         (4) Source code is located in :
+      (4) Source code is located in :
          
-             org.eclipse.jucmnav.grl.CircularDependencyDetection/src/org/eclipse/jucmnav/grl/CircularDependencyDetection
+       org.eclipse.jucmnav.grl.CircularDependencyDetection -> 
+       
+       /src/org/eclipse/jucmnav/grl/CircularDependencyDetection
 
 
 Installation Instructions:
